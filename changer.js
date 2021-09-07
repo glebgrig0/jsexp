@@ -1,4 +1,4 @@
 function ClearBody(){
-    document.getElementById("BODY").innerHTML=""
+    document.getElementsByTagName("body").innerHTML=""
 }
 ClearBody()
